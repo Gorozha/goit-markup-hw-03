@@ -206,8 +206,10 @@ p {
     height: 80px;
     padding-left: 15px;
     padding-right: 15px;
+
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
     align-items: center;
 }
 
