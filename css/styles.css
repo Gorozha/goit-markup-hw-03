@@ -1,0 +1,269 @@
+ /* #2196F3 blue */ 
+/* #212121 black */
+/* #FFFFFF white */
+/* #000000  black */
+/* #AFB1B8 grey */
+/*     font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif; */
+html {
+    box-sizing: border-box;
+} 
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+:root {
+    --accent-color: #2196F3;
+    --dark-color: #212121;
+    --main-color: #757575;
+    --white-color: #ffffff;
+}
+body {
+    color: var(--dark-color);
+    background-color: var(--white-color);
+}
+a {
+    text-decoration: none;
+}
+/*h1 {
+    color: #837c7c;
+    font-size: 44px;
+}*/
+h2,h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.logotype {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;   
+    /* identical to box height */
+    letter-spacing: 0.03em;   
+    color: var(--accent-color);      
+}
+
+.log {
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;   
+    /* identical to box height */
+    letter-spacing: 0.03em;   
+    color: var(--dark-color);   
+}
+/*для сброса точек перед списками*/
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;    
+    color: var(--dark-color);       
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus {
+    color:var(--accent-color);
+}
+
+.adr .adr-mail,
+.adr .adr-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;   
+    color: var(--main-color);        
+}
+.adr-mail:hover,
+.adr-mail:focus {
+    color:var(--accent-color);
+}
+
+.adr .adr-tel:hover,
+.adr .adr-tel:focus {
+    color: var(--accent-color);
+}
+
+.main-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    /*color: #FFFFFF*/
+}
+
+.order-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    /*display: flex;
+    align-items: center;
+    text-align: center;*/
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    /*border: solid red;*/
+    
+}
+
+.title-works {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    /*color: #FFFFFF;*/
+}
+
+.list-buttons {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;    
+    width: 130px; 
+    border-radius: 4px;  
+    /* identical to box height, or 162% */
+    /*text-align: center;*/
+    color: var(--dark-color);
+}
+
+.list-buttons :hover {
+    background: var(--accent-color);
+    color: var(--white-color);
+    display: inline-block;
+    box-sizing: inherit;
+    border-radius: 4px;
+    
+}
+
+.follow {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    /*color: #FFFFFF;*/
+}
+
+.container {
+    display: flex;
+    width: 1170px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.container-nav {
+    display: flex;
+
+}
+
+.container .nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links .menu {
+    margin-right: 50px;
+    align-items: center;
+}
+.logotype {
+    display: flex;
+}
+.log {
+    margin-right: 85px;
+    margin-left: 5px;
+}
+
+.adr {
+    display: flex;
+}
+.adr-mail {
+    display: flex;
+}
+.let {
+    margin-right: 10px;
+    margin-left: 255px;
+}
+.adr-tel {
+    display: flex;
+}
+.smart{
+    margin-left: 30PX;
+    margin-right: 10PX;
+} 
+
+.content {
+
+}
+
+.main-content {
+
+}
+
+.order-button {
+    display: inline-block;
+    padding: 0;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    
+}
+    
