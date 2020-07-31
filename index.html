@@ -26,15 +26,16 @@
               <li class="menu"><a href="./portfolio.html" class="link" >Портфолио</a></li>
               <li class="menu"><a href="#" class="link" >Контакты</a></li>
             </ul>
-          </nav>
-          <address class="adr">          
-            <a href="mailto:info@devstudio.com" class="adr-mail">
-              <img class="let" src="./images/envelope.svg" alt="letter"> info@devstudio  
-            </a>          
-            <a href="tel:+380961111111" class="adr-tel">
-              <img class="smart" src="./images/smartphone.svg" alt="smartphone"> +38 096 111 11 11
-            </a>
-          </address>
+          
+            <div class="adr">          
+              <a href="mailto:info@devstudio.com" class="adr-mail">
+                <img class="let" src="./images/envelope.svg" alt="letter"> info@devstudio  
+              </a>          
+              <a href="tel:+380961111111" class="adr-tel">
+                <img class="smart" src="./images/smartphone.svg" alt="smartphone"> +38 096 111 11 11
+              </a>
+            </div>
+          </nav>         
         </div>
       </div>      
     </header>
@@ -44,7 +45,7 @@
     <main>
       <div class="container">
         <section class="content">
-          <div class="image">
+          <!--<div class="image">
             <!--<img class="headphoto" src ="./images/Header.jpg" alt="headerphoto ">-->
             <h1 class="main-content">эффективные решения для вашего бизнеза</h1>
             <button class="order-button">заказать услугу</button>
@@ -54,19 +55,20 @@
      <!-- особенности-->
      <section>
        <div class="container">
-          <h2 class="topic">особенности</h2>
+         <div class="container-features">
+          <h2 class="topic1">особенности</h2>
             <ul class="title-features list">
               <li class="features">
                   <img class="icon" src="./images/antenna1.png" alt="антенна" />
-                  <h3 class="chapter">Внимание к деталям</h3>
+                  <h3 class="chapter1">Внимание к деталям</h3>
                   <p class="rubric">
-                  Идейные соображения, а также начало повседневной работы по
-                  формированию позиции.
+                      Идейные соображения, а также начало повседневной работы по
+                      формированию позиции.
                   </p>
               </li>
               <li class="features">
                   <img class="icon" src="./images/clock1.png" alt="часы" />
-                  <h3 class="chapter">Пунктуальность</h3>
+                  <h3 class="chapter1">Пунктуальность</h3>
                   <p class="rubric">
                     Задача организации, в особенности же рамки и место обучения кадров
                     влечет за собой.
@@ -74,7 +76,7 @@
               </li>
               <li class="features">
                   <img class="icon" src="./images/diagram1.png" alt="диаграмма" />
-                  <h3 class="chapter">Планирование</h3>
+                  <h3 class="chapter1">Планирование</h3>
                   <p class="rubric">
                     Равным образом консультация с широким активом в значительной степени
                     обуславливает.
@@ -82,52 +84,58 @@
               </li>
               <li class="features">
                     <img class="icon" src="./images/astronaut1.png" alt="астронавт" />
-                  <h3 class="chapter">Современные технологии</h3>
+                  <h3 class="chapter1">Современные технологии</h3>
                   <p class="rubric">
                     Значимость этих проблем настолько очевидна, что реализация плановых
                     заданий.
                   </p>
               </li>
             </ul>
+          </div>
         </div>
      </section>
     
      <!-- чем мы занимаемся -->
      <section>
          <div class="container">
+            <div class="container-work">
             <h2 class="topic">Чем мы занимаемся</h2>
-              <ul class="title-works list">
-                <li>
-                  <figure class="work">
+              <ul class="title-works1 list">
+                <div class="hobby">
+                <li class="work">
+                  <figure class="fig">
                       <img class="work-img" src="./images/nout.jpg" width="370" alt="ноутбук" />
-                      <figcaption class="chapter">Десктопные приложения</figcaption>
+                      <figcaption class="chapter2">Десктопные приложения</figcaption>
                   </figure>
                 </li>
-                <li>
-                  <figure class="work">
+                <li class="work">
+                  <figure class="fig">
                       <img class="work-img" src="./images/smart.jpg" width="370" alt="телефон" />
-                      <figcaption class="chapter">Мобильные приложения</figcaption>
+                      <figcaption class="chapter2">Мобильные приложения</figcaption>
                   </figure>
                 </li>
-                <li>
-                  <figure class="work">
+                <li class="work">
+                  <figure class="fig">
                       <img class="work-img" src="./images/comp.jpg" width="370" alt="монитор" />
-                      <figcaption class="chapter">Дизайнерские решения</figcaption>
+                      <figcaption class="chapter2">Дизайнерские решения</figcaption>
                   </figure>
                 </li>
+              </div>
               </ul>
+            </div>
           </div>     
      </section>
      <!-- наша команда -->
      <section>
        <div class="container">
-          <h2 class="topic">наша команда</h2>
-            <ul class="our-team list">
-              <li>
-                <img src="./images/kucherenko.jpg" width="250" alt="photo" />
-                  <h3 class="chapter">Николай Кучеренко</h3>           
-                    <p>Project Designer</p>
-                      <ul class="social-links list">
+         <div class="container-team">
+          <h2 class="topic3">наша команда</h2>
+            <ul class="our-team list">              
+              <li class="all-team">
+                <img class="team-photo" src="./images/kucherenko.jpg" width="270" alt="photo" />
+                  <h3 class="chapter3">Николай Кучеренко</h3>           
+                    <p class="rubric1">Project Designer</p>
+                      <ul class="social-links-team list">
                         <li>
                           <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer noopener">
                             <img src="./images/instagram2.svg" alt="instagram">
@@ -151,11 +159,11 @@
                       </ul>  
               </li>
 
-              <li>
-                <img src="./images/ivanova.jpg" width="250" alt="photo">
-                  <h3 class="chapter">Ольга Иванова</h3>         
-                    <p>Frontend  Developer</p>
-                      <ul class="social-links list">
+              <li class="all-team">
+                <img class="team-photo" src="./images/ivanova.jpg" width="270" alt="photo">
+                  <h3 class="chapter3">Ольга Иванова</h3>         
+                    <p class="rubric1">Frontend  Developer</p>
+                      <ul class="social-links-team list">
                         <li>
                           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
                             <img src="./images/instagram2.svg" alt="instagram">
@@ -179,11 +187,11 @@
                       </ul> 
               </li>
 
-              <li>
-                <img src="./images/shevchenko.jpg" width="250" alt="photo">
-                  <h3 class="chapter">Андрей  Шевченко</h3>
-                    <p>Marketing</p>
-                      <ul class="social-links list">
+              <li class="all-team">
+                <img class="team-photo" src="./images/shevchenko.jpg" width="270" alt="photo">
+                  <h3 class="chapter3">Андрей  Шевченко</h3>
+                    <p class="rubric1">Marketing</p>
+                      <ul class="social-links-team list">
                         <li>
                           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
                             <img src="./images/instagram2.svg" alt="instagram">
@@ -207,11 +215,11 @@
                       </ul> 
                 </li>
 
-                <li>
-                  <img src="./images/nikolayev.jpg" width="250" alt="photo">
-                    <h3 class="chapter">Иван  Николаев</h3>
-                      <p>UI Designer</p>
-                        <ul class="social-links list">
+                <li class="all-team">
+                  <img class="team-photo" src="./images/nikolayev.jpg" width="270" alt="photo">
+                    <h3 class="chapter3">Иван  Николаев</h3>
+                      <p class="rubric1">UI Designer</p>
+                        <ul class="social-links-team list">
                           <li>
                             <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
                               <img src="./images/instagram2.svg" alt="instagram">
@@ -235,80 +243,90 @@
                         </ul> 
                 </li>
             </ul>
+          
+          </div>
         </div>
      </section>
      <!-- постоянные клиенты -->
      <section>
        <div class="container">
-          <h2 class="topic">Постоянные клиенты</h2>
+         <div class="costumer">
+          <h2 class="topic2">Постоянные клиенты</h2>
             <ul class="costumer-list list">
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo1.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo1.svg" alt="logotype">
                 </a>
               </li>           
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo2.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo2.svg" alt="logotype">
                 </a>
               </li>
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo3.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo3.svg" alt="logotype">
                 </a>
               </li>
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo4.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo4.svg" alt="logotype">
                 </a>
               </li>
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo5.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo5.svg" alt="logotype">
                 </a>
               </li>
-              <li>
+              <li class="all-costumer">
                 <a href="#">
-                  <img src="./images/logo6.svg" alt="logotype">
+                  <img class="img-costumer" src="./images/logo6.svg" alt="logotype">
                 </a>
               </li>
             </ul>
+          </div>
         </div>
      </section>
     </main> 
     <!-- футер -->
     <footer>
       <div class="container">
-        <a class="logotype" href="Web Studio">
-          <span class="logo">Web</span> 
-          <span class="log">Studio</span>
-        </a> 
-          <address class="adr">
-            <p>г.Киев, пр-т Леси Украинки, 26 </p><br>
-              <a href="mailto:info@example.com" class="adr-mail">info@example.com</a><br>
-              <a href="tel:+380961111111" class="adr-tel">+38 096 111 11 11</a>
-          </address>
-            <p class="follow">присоединяйтесь</p>
-              <ul class="social-links list">
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
-                    <img src="./images/instagram2.svg" alt="instagram"></a>         
-                </li>
-                <li>
-                  <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
-                    <img src="./images/twitter1.svg" alt="twitter"></a>          
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
-                    <img src="./images/facebook1.svg" alt="facebook"> </a>       
-                </li>
-                <li>
-                  <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener">
-                    <img src="./images/linkedin1.svg" alt="linkedin">
+          <div class="footer-content">
+              <div class="footer-adr">
+                  <a class="footer-logotype" href="Web Studio">
+                      <span class="footer-logo">Web</span> 
+                      <span class="footer-log">Studio</span>
                   </a> 
-                </li>
-              </ul>
+                  <address class="adr-city">
+                  <p>г.Киев, пр-т Леси Украинки, 26 </p><br>
+                      <a href="mailto:info@example.com" class="footer-adr-mail">info@example.com</a><br>
+                      <a href="tel:+380961111111" class="footer-adr-tel">+38 096 111 11 11</a>
+                  </address>
+              </div>
+              <div class="footer-social">
+                  <p class="follow">присоединяйтесь</p>
+                      <ul class="social-links list">
+                          <li class="footer-icon">
+                              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+                                  <img src="./images/instagram2.svg" alt="instagram"></a>         
+                          </li>
+                          <li class="footer-icon">
+                              <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
+                                  <img src="./images/twitter1.svg" alt="twitter"></a>          
+                          </li>
+                          <li class="footer-icon">
+                              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
+                                  <img src="./images/facebook1.svg" alt="facebook"> </a>       
+                          </li>
+                          <li class="footer-icon">
+                              <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener">
+                                  <img src="./images/linkedin1.svg" alt="linkedin">
+                              </a> 
+                          </li>
+                      </ul>
+              </div>
+          </div>
       </div>
-    </footer>
+  </footer>
   </body>
 </html>
